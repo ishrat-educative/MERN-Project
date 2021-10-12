@@ -3,8 +3,10 @@ var mongoose = require("mongoose");
 const data = require("../Data/courses.json");
 
 //Set up default mongoose connection
-var mongoDB =
-  "mongodb+srv://test:A123456!@cluster0.bputu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+//var mongoDB =
+//  "mongodb+srv://test:A123456!@cluster0.bputu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+
+var mongoDB = "mongodb://127.0.0.1:27017/basic-mern-app";
 
 //Get the default connection
 var db = mongoose.connection;
